@@ -1,0 +1,23 @@
+/*Отступ сверху для Breadcrumbs*/
+.container .row ol {
+	margin-top:20px;
+}
+/*Расстояние между иконкой и ссылкой Регистрация*/
+#authLink .navbar-link {
+	padding-left:0;
+}
+#authLink span {padding-top:18px;}
+/*Расстояние между предыдущим компонентом на странице О НАС*/
+.section,
+.section-colored {
+  padding: 50px 0;
+}
+/*Горизонтальаня полоса с текстом на странице О НАС*/
+.section-colored {
+    background-color:#6699FF;
+    color:#FFF;
+}
+/*Форматирование отступов между фотографиями магазинов на странице О НАС*/
+.photo-magazine {
+	padding:0 10px 20px 10px;
+}
