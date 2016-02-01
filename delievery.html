@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FloWeb - Мир цветов</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- style.css -->
+    <link href="css/style.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+  	
+
+    <div class="row">
+        	<div class="navbar navbar-default navbar-fixed-top">
+            	<div class="container">
+                	<div class="navbar-header">
+                    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                        	<span class="sr-only">Открыть навигацию</span>
+                        	<span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    	<a class="navbar-brand" href="#">FloWeb</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="responsive-menu">
+                   	  <ul class="nav navbar-nav">
+                        	<li class="dropdown">
+                            	<a href="#" class="dropdown-toggle active" data-toggle="dropdown">Главная<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                	<li><a href="#">Цветы</a></li>
+                                    <li><a href="#">Композиции</a></li>
+                                    <li><a href="#">Сувениры</a></li>
+                                    <li><a href="#">Прочее</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Магазины</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                        
+                        <button type="button" class="btn btn-success navbar-btn pull-right" data-toggle="modal" data-target="#authModal">Войти</button>
+
+                        <div class="collapse navbar-collapse pull-right" id="authLink">
+                          <ul class="nav navbar-nav">
+                                <li><a href="#" class="navbar-link"><i class="glyphicon glyphicon-user"></i> Регистрация</a></li>
+                            </ul>
+                    	</div>
+
+                </div>
+            </div>
+
+ 
+        </div>
+    </div>
+    <!--Индикаторы слайдов-->
+    <div id="carousel" class="carousel slide" data-interval="5000" data-ride="carousel" width="100%">
+      <ol class="carousel-indicators">
+          <li class="active" data-target="#carousel" data-slide-to="0"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+          <li data-target="#carousel" data-slide-to="3"></li>
+          <li data-target="#carousel" data-slide-to="4"></li>
+          <li data-target="#carousel" data-slide-to="5"></li>
+          <li data-target="#carousel" data-slide-to="6"></li>
+          <li data-target="#carousel" data-slide-to="7"></li>
+          <li data-target="#carousel" data-slide-to="8"></li>
+      </ol>
+      <!--Слайды-->
+      <div class="carousel-inner">
+          <div class="item active">
+              <img src="img/slider/10.jpg" alt="">
+              <div class="carousel-caption">
+                  <h3>Заголовок слайдера</h3>
+                  <p>Текстовое описание текущего слайдера.</p>
+              </div>
+          </div>
+          <div class="item">
+              <img src="img/slider/11.jpg" alt="">
+              <div class="carousel-caption">
+                  <h3>Заголовок слайдера</h3>
+                  <p>Текстовое описание текущего слайдера.</p>
+              </div>
+          </div>
+          <div class="item">
+              <img src="img/slider/3.jpg" alt="">
+              <div class="carousel-caption">
+                  <h3>Заголовок слайдера</h3>
+                  <p>Текстовое описание текущего слайдера.</p>
+              </div>
+          </div>
+          <div class="item">
+              <img src="img/slider/12.jpg" alt="">
+              <div class="carousel-caption">
+                  <h3>Заголовок слайдера</h3>
+                  <p>Текстовое описание текущего слайдера.</p>
+              </div>
+          </div>
+          <div class="item">
+              <img src="img/slider/13.jpg" alt="">
+              <div class="carousel-caption">
+                  <h3>Заголовок слайдера</h3>
+                  <p>Текстовое описание текущего слайдера.</p>
+              </div>
+          </div>
+          <div class="item">
+              <img src="img/slider/6.jpg" alt="">
+              <div class="carousel-caption">
+                  <h3>Заголовок слайдера</h3>
+                  <p>Текстовое описание текущего слайдера.</p>
+              </div>
+          </div>
+          <div class="item">
+              <img src="img/slider/15.jpg" alt="">
+              <div class="carousel-caption">
+                  <h3>Заголовок слайдера</h3>
+                  <p>Текстовое описание текущего слайдера.</p>
+              </div>
+          </div>
+          <div class="item">
+              <img src="img/slider/16.jpg" alt="">
+              <div class="carousel-caption">
+                  <h3>Заголовок слайдера</h3>
+                  <p>Текстовое описание текущего слайдера.</p>
+              </div>
+          </div>
+          <div class="item">
+              <img src="img/slider/14.jpg" alt="">
+              <div class="carousel-caption">
+                  <h3>Заголовок слайдера</h3>
+                  <p>Текстовое описание текущего слайдера.</p>
+              </div>
+          </div>
+      </div>
+      <!--Стрелки переключения слайдов-->
+      <a href="#carousel" class="left carousel-control" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a href="#carousel" class="right carousel-control" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>   
+  	<div class="container">
+    	<div class="row">
+            <!--Центральная часть страницы-->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <!--
+            	<ol class="breadcrumb">
+                  <li class="active">Главная</li>
+                </ol>
+            -->             
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h1 class="page-header">Курьерские службы
+                            <small>Народный рейтинг</small>
+                        </h1>
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Главная</a></li>
+                            <li class="active">Курьерские службы</li>
+                        </ol>
+                    </div>
+                </div>
+            
+                
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="btn-group pull-right" role="group" aria-label="...">
+                          <button type="button" class="btn btn-default active"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></button>
+                          <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-th" aria-hidden="true"></span></button>
+                        
+                          <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Рудный
+                              <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Абай</a></li>
+                                <li><a href="#">Акколь</a></li>
+                                <li><a href="#">Аксай</a></li>
+                                <li><a href="#">Аксу</a></li>
+                                <li><a href="#">Актау</a></li>
+                                <li><a href="#">Актюбинск</a></li>
+                                <!--
+                                <li><a href="#">Алга</a></li>
+                                <li><a href="#">Алма-Ата</a></li>
+                                <li><a href="#">Аральск</a></li>
+                                <li><a href="#">Аркалык</a></li>
+                                <li><a href="#">Арыс</a></li>
+                                <li><a href="#">Астана</a></li>
+                                <li><a href="#">Атбасар</a></li>
+                                <li><a href="#">Атырау</a></li>
+                                <li><a href="#">Аягуз</a></li>
+                                <li><a href="#">Байконур</a></li>
+                                <li><a href="#">Балхаш</a></li>
+                                <li><a href="#">Булаево</a></li>
+                                <li><a href="#">Державинск</a></li>
+                                <li><a href="#">Ерейментау</a></li>
+                                <li><a href="#">Есик</a></li>
+                                <li><a href="#">Есиль</a></li>
+                                <li><a href="#">Жанаозен</a></li>
+                                <li><a href="#">Жанатас</a></li>
+                                <li><a href="#">Жаркент</a></li>
+                                <li><a href="#">Жезказган</a></li>
+                                <li><a href="#">Жем</a></li>
+                                <li><a href="#">Жетысай</a></li>
+                                <li><a href="#">Житикара</a></li>
+                                <li><a href="#">Зайсан</a></li>
+                                <li><a href="#">Зыряновск</a></li>
+                                <li><a href="#">Казалинск</a></li>
+                                <li><a href="#">Кандыагаш</a></li>
+                                <li><a href="#">Капчанай</a></li>
+                                <li><a href="#">Караганда</a></li>
+                                <li><a href="#">Каражал</a></li>
+                                <li><a href="#">Каратау</a></li>
+                                <li><a href="#">Каркаралинск</a></li>
+                                <li><a href="#">Каскелен</a></li>
+                                <li><a href="#">Кентау</a></li>
+                                <li><a href="#">Кокшетау</a></li>
+                                <li><a href="#">Костанай</a></li>
+                                <li><a href="#">Кульсары</a></li>
+                                <li><a href="#">Курчатов</a></li>
+                                <li><a href="#">Кызылорда</a></li>
+                                <li><a href="#">Ленгер</a></li>
+                                <li><a href="#">Лисаковск</a></li>
+                                <li><a href="#">Макинск</a></li>
+                                <li><a href="#">Мамлютка</a></li>
+
+                                <li><a href="#">Павлодар</a></li>
+                                <li><a href="#">Петропавловск</a></li>
+                                <li><a href="#">Приозёрск</a></li>
+                                <li><a href="#">Риддер</a></li>
+                                <li><a href="#">Рудный</a></li>
+                                <li><a href="#">Сарань</a></li>
+                                <li><a href="#">Сарканд</a></li>
+                                <li><a href="#">Сарыагаш</a></li>
+                                <li><a href="#">Сатпаев</a></li>
+                                <li><a href="#">Семей</a></li>
+                                <li><a href="#">Сергеевка</a></li>
+                                <li><a href="#">Серебрянск</a></li>
+                                <li><a href="#">Степногорск</a></li>
+                                <li><a href="#">Степняк</a></li>
+                                <li><a href="#">Тайынша</a></li>
+                                <li><a href="#">Талгар</a></li>
+                                <li><a href="#">Талдыкорган</a></li>
+                                <li><a href="#">Тараз</a></li>
+                                <li><a href="#">Текели</a></li>
+                                <li><a href="#">Темир</a></li>
+                                <li><a href="#">Темиртау</a></li>
+                                <li><a href="#">Туркестан</a></li>
+                                <li><a href="#">Уральск</a></li>
+                                <li><a href="#">Усть-Каменогорск</a></li>
+                                <li><a href="#">Учарал</a></li>
+                                <li><a href="#">Уштобе</a></li>
+                                <li><a href="#">Форт-Шевченко</a></li>
+                                <li><a href="#">Хромтау</a></li>
+                                <li><a href="#">Чардара</a></li>
+                                <li><a href="#">Шалкар</a></li>
+                                <li><a href="#">Шар</a></li>
+                                <li><a href="#">Шахтинск</a></li>
+                                <li><a href="#">Шемонаиха</a></li>
+                                <li><a href="#">Шу</a></li>
+                                <li><a href="#">Шымкент</a></li>
+                                <li><a href="#">Щучинск</a></li>
+                                <li><a href="#">Экибастуз</a></li>
+                                <li><a href="#">Эмба</a></li>
+                                -->
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr>
+               <div class="row">
+                                
+                    <div class="col-md-7">
+                        <a href="portfolio-item.html">
+                            <img class="img-responsive" src="img/default/delievery/preview_750x350/1.jpg" alt="">
+                        </a>
+                    </div>
+            
+                    <div class="col-md-5">
+                        <h3>Pony Express</h3>
+                        <h4>Рейтинг: 10</h4>
+                        <p class="text-justify">Сегодня компания PONY EXPRESS – ведущий национальный оператор на рынке Экспресс-доставки, крупный 3PL – оператор с развитой производственной инфраструктурой в Москве, городах России и странах СНГ. Более чем за 20 лет успешной работы мы создали профессиональную команду.</p>
+                        <a class="btn btn-primary" href="#">Ознакомиться <i class="fa fa-angle-right"></i></a>
+                    </div>
+            
+                </div>
+            
+                <hr>
+            
+                <div class="row">
+            
+                    <div class="col-md-7">
+                        <a href="portfolio-item.html">
+                            <img class="img-responsive" src="img/default/delievery/preview_750x350/2.JPG" alt="">
+                        </a>
+                    </div>
+            
+                    <div class="col-md-5">
+                        <h3>ГЕРМЕС Экспресс</h3>
+                        <h4>Рейтинг: 9.8</h4>
+                        <p class="text-justify">ГЕРМЕС Экспресс – курьерская служба, которая каждый день занимается тем, что забирает Ваше отправление (посылку или документ) и доставляет его получателю. Наш сервис - гарантия качества. Наши цены выдержаны конкуренцией и мы готовы снизить их, если Ваша компания делает от 100 отправок в месяц.</p>
+                        <a class="btn btn-primary" href="#">Ознакомиться <i class="fa fa-angle-right"></i></a>
+                    </div>
+            
+                </div>
+            
+                <hr>
+            
+                <div class="row">
+            
+                    <div class="col-md-7">
+                        <a href="portfolio-item.html">
+                            <img class="img-responsive" src="img/default/delievery/preview_750x350/3.jpg" alt="">
+                        </a>
+                    </div>
+            
+                    <div class="col-md-5">
+                        <h3>UniExpress</h3>
+                        <h4>Рейтинг: 9.5</h4>
+                        <p class="text-justify">Мы работаем на рынке с 2004 года. За это время мы полностью изучили услуги доставки, знаем особенности и потребности разных магазинов и их клиентов, что помогает нам эффективно работать с первого дня сотрудничества. Вам остается сосредоточиться на покупках.</p>
+                        <a class="btn btn-primary" href="#">Ознакомиться <i class="fa fa-angle-right"></i></a>
+                    </div>
+            
+                </div>
+            
+                <hr>
+            
+                <div class="row">
+            
+                    <div class="col-md-7">
+                        <a href="portfolio-item.html">
+                            <img class="img-responsive" src="img/default/delievery/preview_750x350/4.jpg" alt="">
+                        </a>
+                    </div>
+            
+                    <div class="col-md-5">
+                        <h3>Asia Sky Express Kazakhstan</h3>
+                        <h4>Рейтинг: 7.9</h4>
+                        <p class="text-justify">Когда нет времени ждать, Когда на счету каждая секунда, Вы можете доверить отправку почты курьерской компании, которая, обеспечит Вам, своевременную и гарантированную экспресс-доставку корреспонденции и грузов во все страны мира.</p>
+                        <a class="btn btn-primary" href="#">Ознакомиться <i class="fa fa-angle-right"></i></a>
+                    </div>
+            
+                </div>
+            
+                <hr>
+            
+                <div class="row">
+            
+                    <div class="col-md-7">
+                        <a href="portfolio-item.html">
+                            <img class="img-responsive" src="http://placehold.it/750x350" alt="">
+                        </a>
+                    </div>
+            
+                    <div class="col-md-5">
+                        <h3>DPD в Казахстане</h3>
+                        <h4>Рейтинг: 7.5</h4>
+                        <p class="text-justify">DPD в Казахстане – это опыт работы свыше 5 лет, уникальная интегрированная сеть наземных грузоперевозок по Казахстану, партнерские отношения с ведущими международными и Казахстанскими авиакомпаниями, сеть собственных филиалов по Казахстану. Все это позволяет DPD в Казахстане уверенно занимать лидирующие позиции в области экспресс-доставки посылок и грузов и предлагать такие решения, которые помогают клиентам быть успешными на своих рынках.</p>
+                        <a class="btn btn-primary" href="#">Ознакомиться <i class="fa fa-angle-right"></i></a>
+                    </div>
+            
+                </div>
+            
+                <hr>
+            
+                <div class="row text-center">
+            
+                    <div class="col-lg-12">
+                        <ul class="pagination">
+                            <li><a href="#">&laquo;</a>
+                            </li>
+                            <li class="active"><a href="#">1</a>
+                            </li>
+                            <li><a href="#">2</a>
+                            </li>
+                            <li><a href="#">3</a>
+                            </li>
+                            <li><a href="#">4</a>
+                            </li>
+                            <li><a href="#">5</a>
+                            </li>
+                            <li><a href="#">&raquo;</a>
+                            </li>
+                        </ul>
+                    </div>
+            
+                </div>
+    </div><!--row-->
+            
+              
+</div><!-- /.container -->
+    
+    <!-- Модальное окно авторизации -->
+    <div class="modal fade" id="authModal" tabindex="-1" role="dialog" aria-labelledby="authModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="authModalLabel">Авторизация</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Recipient:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="control-label">Message:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Конец модального окна авторизации -->
+    
+    <div class="container">
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Использование материалов сайта без ссылки на него запрещено &copy; FloWeb 2015</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+  		
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  	</div>
+  </body>
+</html>
