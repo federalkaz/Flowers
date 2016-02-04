@@ -158,26 +158,32 @@
                 <!-- Контакты - Телефоны и e-mail - Начало -->
                 <div class="row">
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        
                         <div class="row">
-                            <div class="col-xs-1 col-xs-offset-5 col-sm-1 col-sm-offset-5 col-md-1 col-md-offset-5 col-lg-1 col-lg-offset-5">
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
                                 <span class="glyphicon glyphicon-earphone" style="font-size:300%; margin-top:13px;"></span>
+                                <span class="glyphicon glyphicon-envelopee" style="font-size:300%; margin-top:11px;"></span>
                             </div>
-                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                <div><h4>+7 (987) 654 32 10</h4></div>
-                                <div><h4>+7 (012) 345 67 89</h4></div>
+                            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                                <div><h4>+7 (987) 654 32 10 - Менеджер по работе с клиентами</h4></div>
+                                <div><h4>+7 (012) 345 67 89 - Менеджер по работе с партнёрами</h4></div>
                             </div>
                         </div>
+                            
+                        <div class="row"> 
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            	<span class="glyphicon glyphicon-envelope" style="font-size:300%; margin-top:11px;"></span>
+                            </div>
+                            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                            	<div><h4>support@mail.ru - Техподдержка</h4></div>
+                                <div><h4>info@mail.com - Общие вопросы</h4></div>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    	<div class="row">
-                            <div class="col-xs-1 col-xs-offset-2 col-sm-1 col-sm-offset-2 col-md-1 col-md-offset-2 col-lg-1 col-lg-offset-2">
-                                <span class="glyphicon glyphicon-envelope" style="font-size:300%; margin-top:13px;"></span>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                <div><h4>support@mail.ru</h4></div>
-                                <div><h4>info@mail.com</h4></div>
-                            </div>
-                        </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-justify">
+                        <h3 style="margin-top:0;">Написать директору!</h3>
+                        <p>Абсолютно новая функция для наших пользователей, позволяющая обратиться напрямую к директору цветочного магазина или курьерской службы. Вы можете быть абсолютно уверены, что ваше сообщение не останется незамеченым. Для отправки данного сообщения вам необходимо воспользоваться формой расположенной ниже, либо кликнув по специальной кнопке, находящейся на странице-визитке цветочного магазина или курьерской службы.</p>
                     </div>
                 </div>
                 <!-- Контакты - Телефоны и e-mail - Конец -->
@@ -187,52 +193,67 @@
             <!-- Конец  -->    
         </div><!-- container user-type -->
     </div>
-    
+    <!--
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-12 col-lg-12">
+                <h2>Написать директору!</h2>
+                <p>Абсолютно новая функция для наших пользователей, позволяющая обратиться напрямую к директору цветочного магазина или курьерской службы. Вы можете быть абсолютно уверены, что ваше сообщение не останется незамеченым. Для отправки данного сообщения вам необходимо воспользоваться формой расположенной ниже, либо кликнув по специальной кнопке, находящейся на странице-визитке цветочного магазина или курьерской службы.</p>
+                
+            </div>
+        </div>
+    </div>
+    -->
     <div class="section-colored text-center">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-12">
-                    <h2>Написать директору!</h2>
-                    <p>Абсолютно новая функция для наших пользователей, позволяющая обратиться напрямую к директору цветочного магазина или курьерской службы. Вы можете быть абсолютно уверены, что ваше сообщение не останется незамеченым. Для отправки данного сообщения вам необходимо воспользоваться формой расположенной ниже, либо кликнув по специальной кнопке, находящейся на странице-визитке цветочного магазина или курьерской службы.</p>
-                    <hr>
-                    <form>
-                        <div class="form-group form-group-sm">
-                            <label class="col-xs-1 col-md-1 col-sm-1 col-lg-1 control-label" for="city">Город:</label>
-                            <div class="col-xs-2 col-md-2 col-sm-2 col-lg-2">
-                                <select class="form-control input-lg" id="city">
-                                    <option value="1">Рудный</option>
-                                    <option value="2">Костанай</option>
-                                    <option value="3">Петропавловск</option>
-                                    <option value="4">Астана</option>
-                                    <option value="5">Алматы</option>
-                                </select>
+                    <form class="form-horizontal">
+                        <div class="row">
+                        	<div class="col-xs-5 col-md-5 col-sm-5 col-lg-5">
+                                <div class="form-group form-group-sm">
+                                    <label class="col-xs-2 col-md-2 col-sm-2 col-lg-2 control-label" for="city">Город:</label>
+                                    <div class="col-xs-7 col-md-7 col-sm-7 col-lg-7">
+                                        <select class="form-control input-lg" id="city">
+                                            <option value="1">Рудный</option>
+                                            <option value="2">Костанай</option>
+                                            <option value="3">Петропавловск</option>
+                                            <option value="4">Астана</option>
+                                            <option value="5">Алматы</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="radio">
+                                    <label class="col-xs-2 col-xs-offset-2 col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col-lg-2">
+                                      <input type="radio" name="company" id="courier" value="courier" checked> Служба доставки
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                      <input type="radio" name="company" id="shop" value="shop"> Магазин цветов
+                                    </label>
+                                </div>
+                                <div class="form-group form-group-sm">
+                                    <label class="col-xs-2 col-md-2 col-sm-2 col-lg-2 control-label" for="company">Компания:</label>
+                                    <div class="col-xs-7 col-md-7 col-sm-7 col-lg-7">
+                                        <select class="form-control input-lg" id="company">
+                                            <option value="1">Василёк</option>
+                                            <option value="2">Колокольчик</option>
+                                            <option value="3">Атлас</option>
+                                            <option value="4">Глобус</option>
+                                            <option value="5">Эдем</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group form-group-sm">
-                            <label class="col-xs-2 col-md-2 col-sm-2 col-lg-2 radio-inline">
-                              <input type="radio" name="company" id="courier" value="courier"> Курьерская служба
-                            </label>
                             
-                            <label class="col-xs-2 col-md-2 col-sm-2 col-lg-2 radio-inline">
-                              <input type="radio" name="company" id="shop" value="shop"> Цветочный магазин
-                            </label>
-                        </div>
-                        <div class="form-group form-group-sm">
-                            <label class="col-xs-1 col-md-1 col-sm-1 col-lg-1 control-label" for="company">Компания:</label>
-                            <div class="col-xs-3 col-md-3 col-sm-3 col-lg-3">
-                                <select class="form-control input-lg" id="company">
-                                    <option value="1">Василёк</option>
-                                    <option value="2">Колокольчик</option>
-                                    <option value="3">Атлас</option>
-                                    <option value="4">Глобус</option>
-                                    <option value="5">Эдем</option>
-                                </select>
+                            <div class="col-xs-7 col-md-7 col-sm-7 col-lg-7">
+                            	<div class="form-group">
+                                    <label class="col-xs-1 col-md-1 col-sm-1 col-lg-1 control-label" for="message_director">Сообщение:</label>
+                                    <textarea class="col-xs-9 col-md-9 col-sm-9 col-lg-9 form-control" rows="4" id="message_director"></textarea>
+                                </div>
                             </div>
-                        </div><br><br>
-                        <div class="form-group">
-                            <label class="col-xs-1 col-md-1 col-sm-1 col-lg-1 control-label" for="message_director">Сообщение:</label>
-                       
-                            <textarea class="col-xs-9 col-md-9 col-sm-9 col-lg-9 form-control" rows="4" id="message_director"></textarea>
+                            
                         </div>
                     </form>
                 </div>
