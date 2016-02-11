@@ -32,3 +32,6 @@
 .head-news {
 	margin-top:0;
 }
+/*Выравнивание страницы под навбар*/
+body {padding-top:50px;}
+
